@@ -8,21 +8,21 @@ global.zApiKey = {// if this API key get expired then please go to https://www.f
 }
 
 
-global.botname = process.env.BotName || "Queen Anya" 
-global.author = process.env.Author || "@PikaBotz" 
-global.packname = process.env.PackName || "Queen Anya v2 MD" 
-global.myweb = process.env.Web || "https://github.com/PikaBotz" 
-global.footer = process.env.Footer || "© Queen Anya Bot" 
-global.prefa = process.env.Prefix || ['-'] 
-global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "Pika~Kun" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
-global.adress = process.env.Continent || "Asia, India, Assam" 
-global.timezone = process.env.TimeZone || "Asia/Kolkata" 
+global.botname = process.env.BotName || "bot al soltan" 
+global.author = process.env.Author || "@Youssef Al Soltan" 
+global.packname = process.env.PackName || "bot Whatsapp By Youssef AL Soltan" 
+global.myweb = process.env.Web || "https://instagram.com/youssef.alsoltan_/" 
+global.footer = process.env.Footer || "© Bot al soltan" 
+global.prefa = process.env.Prefix || ['.'] 
+global.themeemoji = process.env.ThemeEmoji || "🤓" 
+global.ownername = process.env.Owner_Name || "YOUSEF AL SOLTAN" 
+global.ownernumber = process.env.Owner_Number || "201277272498" 
+global.adress = process.env.Continent || "Egypt, alex, eskndria" 
+global.timezone = process.env.TimeZone || "Asia/Egypt" 
 global.instagramId = process.env.Insta || "8.08_only_mine" 
 global.email = process.env.Email_Id || "example@example.com" 
 
-global.mongoUrl = process.env.MongoDB || "Enter"; 
+global.mongoUrl = process.env.MongoDB || ""; 
 
 global.warns = process.env.Warns_Limits || 3; 
 
@@ -101,17 +101,17 @@ global.message = {
 },
 
 module.exports = {
-  botname: process.env.BotName || "Queen Anya", 
-  author: process.env.Author || "@PikaBotz",
-  packname: process.env.PackName || "Queen Anya v2 MD",
-  myweb: process.env.Web || "https://github.com/PikaBotz",
-  footer: process.env.Footer || "© Queen Anya Bot",
-  prefa: process.env.Prefix || ['-'],
-  themeemoji: process.env.ThemeEmoji || "🎐",
-  ownername: process.env.Owner_Name || "Pika~Kun",
-  ownernumber: process.env.Owner_Number || "916900904828",
-  adress: process.env.Continent || "Asia, India, Assam",
-  timezone: process.env.TimeZone || "Asia/Kolkata", 
+  botname: process.env.BotName || "bot al soltan", 
+  author: process.env.Author || "@Youssef Al Soltan",
+  packname: process.env.PackName || "bot whatsapp by youssef al soltan",
+  myweb: process.env.Web || "https://instagram.com/youssef.alsoltan/",
+  footer: process.env.Footer || "©Bot Al Soltan",
+  prefa: process.env.Prefix || ['.'],
+  themeemoji: process.env.ThemeEmoji || "🤓",
+  ownername: process.env.Owner_Name || "YOUSEF AL SOLTAN",
+  ownernumber: process.env.Owner_Number || "201227179105",
+  adress: process.env.Continent || "egypt, alex, eskndria",
+  timezone: process.env.TimeZone || "Asia/Egypt", 
   instagramId: process.env.Insta || "8.08_only_mine",
   email: process.env.Email_Id || "example@example.com",
   warns: process.env.Warns_Limits || 3,
